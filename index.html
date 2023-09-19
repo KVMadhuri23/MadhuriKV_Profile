@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Madhuri K V</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skill">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#courses">Courses</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Madhuri K V</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#skill" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+          <li><a href="#courses" onclick="toggleMenu()">Courses</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/Madhuri-round-pic.png" alt="Madhuri K V profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Madhuri K V</h1>
+        <p class="section__text__p2">MCA Graduate</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Madhuri K V Resume.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/madhurikv23/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/KVMadhuri23'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/ProfilepicMadhuri2.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>8 Months <br />IT Executive</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>MCA<br />BCA</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p align="justify">
+                <b>I'm Madhuri, MCA graduate who aspires to become a Software Engineer.</b>
+                During my studies I gained hands-on experience in Web Development by creating lot of websites.
+                Most of my works are in Java and Python. My vision is to contribute my knowledge, skills, and abilities within a dynamic and competitive team 
+                environment, where I can continuously enhance my capabilities and make a significant impact on 
+                technology and organizational growth through innovative ideas.
+                Outside of work I enjoy drawing, which makes me more energized and inspired.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Watch Out My</p>
+        <h1 class="title">Experience</h1>
+        <div class="section-container">
+          <div class="section__pic-container">
+            <img
+              src="./assets/experience.png"
+              alt="Profile picture"
+              class="about-pic"
+            />
+          </div>
+          <div class="about-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                
+                <h3>QUASTRRELI INDIA PVT LTD [Mar 2021 – Oct 2021]</h3>
+                <h4>IT Executive</h4>
+                <ul type="circle">
+                    <li align="left">Provided exceptional technical support to customers, resolving inquiries and issues 
+                        promptly and effectively.</li>
+                    <li align="left">Communicated with development teams to relay customer feedback, ensuring continuous 
+                        product improvement.</li>
+                </ul>
+              </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#experience'"
+        />
+      </section>
+      <section id="education">
+        <p class="section__text__p1">Look In To My</p>
+        <h1 class="title">Education</h1>
+        <div class="section-container">
+          <div class="section__pic-container">
+            <img
+              src="./assets/education1.png"
+              alt="Profile picture"
+              class="about-pic"
+            />
+          </div>
+          <div class="about-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                
+                <h3>MASTER OF COMPUTER APPLICATIONS [2021 – 2023]</h3>
+                <h4>A.P.J Abdul Kalam Technical University</h4>
+                   <h5> Percentage: 88.5%</h5>
+                
+              </div>
+        </div>
+        <div class="about-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                
+                <h3>BACHELORS OF COMPUTER APPLICATIONS[2017–2020]</h3>
+                <h4>Calicut University</h4>
+                <h5> Percentage: 77.5%</h5>
+                
+              </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#experience'"
+        />
+      </section>
+
+    <section id="skill">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Programming Skills</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <!-- <p>Experienced</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <!-- <p>Experienced</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Java</h3>
+                  <!-- <p>Intermediate</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PHPt</h3>
+                  <!-- <p>Basic</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <!-- <p>Basic</p> -->
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <!-- <p>Intermediate</p> -->
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Programming Skills</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MySQL</h3>
+                  <!-- <p>Basic</p> -->
+                </div>
+              </article>
+              <!-- <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Express JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>-->
+              <article> 
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <!-- <p>Intermediate</p> -->
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="courses">
+        <p class="section__text__p1">Watch Out My</p>
+        <h1 class="title">Courses</h1>
+        <div class="section-container">
+           <div class="section__pic-container">
+            <img
+              src="./assets/courses.png"
+              alt="Profile picture"
+              class="about-pic"
+            />
+          </div> 
+          <div class="about-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                <ul type="circle">
+                    <li align="left"><b>NPTEL:</b> INTRODUCTION TO PROGRAMMING IN C.</li>
+                    <li align="left"><b>NPTEL:</b> INTRODUCTION TO OPERATING SYSTEMS.</li>
+                    <li align="left"><b>SHAPEAI in collaboration with GDG Ranchi:</b> Bootcamp on ' PYTHON AND DATA 
+                        ANALYTICS'.</li>
+                    <li align="left"><b>Know Up Knowledge Foundation: </b>Java Full Stack Development.<br>[Jun 2023 - Aug 2023].</li>
+                    <li align="left"><b>Udemy: </b>Spring Boot3, Spring 6 & Hibernate for Beginners.  <br>Ongoing.</li>
+                    <li align="left"><b>Udemy: </b>React Front To Back <br> Ongoing</li>
+                </ul>
+              </div>
+        </div>
+        
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#experience'"
+        />
+      </section>
+    
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <h2 align="center">Academic Projects</h3>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <h1 class="experience-sub-title project-title">FHC Appointment System</h1>
+            <div class="btn-container">
+                <p align="justify">Web based application by which common peoples can take 
+                    appointment to visit doctors in their nearby FHC and can track their medical history</p>
+            </div>
+          <div>
+            <p align="left"><b>FrontEnd: </b>HTML5, CSS3, Jquery, JavaScript</p>
+                <p align="justify"><b>BackEnd: </b>Java</p>
+                <p align="justify"><b>Database: </b>MySQL</p>
+           </div>     
+        </div>
+        <div class="details-container color-container">
+            <h1 class="experience-sub-title project-title">Manage CVR</h1>
+            <br>
+            <div class="btn-container">
+                <p align="justify">System through which Branch Manager can ensure the staffs under them 
+                    visits the privileged customers in person using OTP.</p>
+            </div>
+          <div>
+            <br>
+            <p align="left"><b>FrontEnd: </b>HTML5, CSS3, Jquery, JavaScript, XML</p>
+                <p align="justify"><b>BackEnd: </b>Python</p>
+                <p align="justify"><b>Database: </b>MySQL</p>
+           </div>     
+        </div>
+        <div class="details-container color-container">
+            <h1 class="experience-sub-title project-title">EQ BOX</h1>
+            <br>
+            <div class="btn-container">
+                
+                <p align="justify"> A highly secured electronically locked box in which question papers are kept 
+                    safe and then sent to examination centers.</p>
+            </div>
+          <div>
+            <br>
+            <p align="left"><b>FrontEnd: </b>HTML5, CSS3, JavaScript</p>
+                <p align="justify"><b>BackEnd: </b>Arduino Programming Language, PHP</p>
+                <p align="justify"><b>Database: </b>MySQL</p>
+                <p align="justify"><b>Micro-controller: </b>Arduino UNO</p>
+           </div>     
+        </div>
+    </section>
+    <!-- <section>
+        <br>
+        <h2 align="center">Projects</h3>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/project-1.png"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Project One</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/project-2.png"
+                  alt="Project 2"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Project Two</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/project-3.png"
+                  alt="Project 3"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Project Three</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/'"
+                >
+                  Github
+                </button>
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://github.com/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#contact'"
+        />
+      </section> -->
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:madhurikv2327@gmail.com">madhurikv2327@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/madhurikv23/">LinkedIn</a></p>
+        </div>
+        <div class="contact-info-container">
+            <img
+              src="./assets/github.png"
+              alt="github icon"
+              class="icon contact-icon"
+            />
+            <p><a href="https://github.com/KVMadhuri23">Github</a></p>
+          </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skill">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Madhuri K V. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
